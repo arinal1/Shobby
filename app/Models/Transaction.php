@@ -1,0 +1,26 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Transaction extends Model
+{
+    protected $table = 'transactions';
+    protected $primaryKey = 'id';
+    protected $fillable = [
+        'product_id',
+        'user_id',
+        'option',
+        'qty'
+    ];
+    public function user()
+    {
+        return $this->belongsTo('App\Models\User');
+    }
+
+    public function product()
+    {
+        return $this->belongsTo('App\Models\Product');
+    }
+}

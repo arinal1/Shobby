@@ -1,0 +1,130 @@
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(241, 241, 241, 1) 50%);
+    display: flex;
+    flex-direction: column;
+}
+
+form .row {
+    justify-content: center;
+}
+
+form .row .col {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+form hr {
+    width: 50%;
+}
+
+.card.order {
+    background-color: transparent;
+}
+
+.card-body {
+    padding: .8rem;
+}
+
+.card-img-top {
+    height: 16rem;
+    object-fit: cover;
+}
+
+.card-text {
+    font-size: 0.8rem;
+    color: rgba(49, 53, 59, 0.96);
+}
+
+.container.content {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.container.content .row {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.divider-vertical {
+    border-right: 1px solid rgba(0, 0, 0, .125);
+}
+
+.img-product-thumbnail {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.item {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.navbar {
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.nav-link {
+    display: inline;
+}
+
+.preorder-detail {
+    padding-left: 2rem;
+}
+
+.preorder-name {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.preorder-publisher {
+    font-size: .8rem;
+    margin-bottom: 1.6rem;
+    color: rgba(49, 53, 59, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.preorder-price {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.preorder-status {
+    font-weight: bold;
+    margin-bottom: 1.6rem;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.preorder-subtotal {
+    font-size: .8rem;
+    color: rgba(49, 53, 59, 0.8);
+}
+
+.preorder-description {
+    white-space: pre-line;
+}
+
+.product-preview {
+    width: 100%;
+    object-fit: cover;
+}
+
+.profile-picture {
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#btn-reset {
+    margin-right: 20px;
+}
